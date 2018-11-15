@@ -9,6 +9,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
+* Composer version 1.7.3 2018-11-01 10:05:06
+* MySql version 5.7
+* Laravel Framwork 5.7
+* PHP 7.2
+* NodeJs 8.12.0
+* npm 6.4.1
+
 What things you need to install the software and how to install them
 
 ```
@@ -16,6 +23,13 @@ Give examples
 ```
 
 ### Installing
+
+$ composer install
+$ php artisan migrate
+$ php artisan db:seed
+$ php passport install 
+
+$ npm run 
 
 A step by step series of examples that tell you how to get a development env running
 

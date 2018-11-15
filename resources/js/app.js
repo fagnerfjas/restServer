@@ -19,9 +19,9 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
-Vue.component('authorized-client', require('./components/passaport/AuthorizedClients.vue'));
-Vue.component('client', require('./components/passaport/Clients.vue'));
-Vue.component('personal-access', require('./components/passaport/PersonalAccessTokens.vue'));
+Vue.component('passport-authorized-client', require('./components/passport/AuthorizedClients.vue'));
+Vue.component('passport-client', require('./components/passport/Clients.vue'));
+Vue.component('passport-personal-access', require('./components/passport/PersonalAccessTokens.vue'));
 
 // const files = require.context('./', true, /\.vue$/i)
 
