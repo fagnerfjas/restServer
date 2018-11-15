@@ -19,6 +19,10 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
+Vue.component('authorized-client', require('./components/passaport/AuthorizedClients.vue'));
+Vue.component('client', require('./components/passaport/Clients.vue'));
+Vue.component('personal-access', require('./components/passaport/PersonalAccessTokens.vue'));
+
 // const files = require.context('./', true, /\.vue$/i)
 
 // files.keys().map(key => {
