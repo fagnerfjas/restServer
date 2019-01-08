@@ -11,24 +11,34 @@ Linux Mint 19
 sudo apt update
 
 * PHP 7.2
+``` 
 sudo apt-get install php7.2
 php -v
+```
 
 * Composer version 1.7.3 2018-11-01 10:05:06
+```
 sudo apt install composer
+```
 
 * GIT
+```
 sudo apt install git
- 
+```
+
 * NodeJs 8.12.0 e npm 6.4.1
+```
 sudo apt install nodejs npm 
 node -v
+```
 
 * MySql version 5.7
+```
 sudo apt-get install mysql-server 
 sudo mysql_secure_installation
-
+```
 Criar usuário para acesso do php
+```
 sudo su
 mysql 
 
@@ -37,7 +47,7 @@ mysql> GRANT ALL PRIVILEGES ON * . * TO 'admin'@'localhost';
 mysql> FLUSH PRIVILEGES;
 mysql> exit
 exit
-
+```
 
 
 ```
