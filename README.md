@@ -3,20 +3,42 @@
 Implementação básica para servidor rest com controle de autenticação servidos pelo Oauth2. 
 Desenvolvido em PHP, com Laravel framwork 5.7 e mysql 5.7
 
-## Getting Started
+## Ambiente de desenvolvimento
+Linux Mint 19
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+### Instalando pré-requisitos
 
-### Prerequisites
+sudo apt update
+
+* PHP 7.2
+sudo apt-get install php7.2
+php -v
 
 * Composer version 1.7.3 2018-11-01 10:05:06
-* MySql version 5.7
-* Laravel Framwork 5.7
-* PHP 7.2
-* NodeJs 8.12.0
-* npm 6.4.1
+sudo apt install composer
 
-What things you need to install the software and how to install them
+* GIT
+sudo apt install git
+ 
+* NodeJs 8.12.0 e npm 6.4.1
+sudo apt install nodejs npm 
+node -v
+
+* MySql version 5.7
+sudo apt-get install mysql-server 
+sudo mysql_secure_installation
+
+Criar usuário para acesso do php
+sudo su
+mysql 
+
+mysql> CREATE USER 'admin'@'localhost' IDENTIFIED BY 'password';
+mysql> GRANT ALL PRIVILEGES ON * . * TO 'admin'@'localhost';
+mysql> FLUSH PRIVILEGES;
+mysql> exit
+exit
+
+
 
 ```
 Give examples
